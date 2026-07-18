@@ -19,6 +19,7 @@ canvas, details, embed, figure, figcaption,
 footer, header, hgroup, menu, nav, output, ruby,
 section, summary, time, mark, audio, video {
 	margin: 0;
+	
 	padding: 0;
 	border: 0;
 	font-size: 100%;
@@ -75,7 +76,20 @@ input, select, textarea {
 .responsive-video {
 	width: 1080px;
 	height: auto;
+	 margin: 0 auto;video {
+    display: block;
+    width: 720px;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
 }
+	
+}
+
+
+
+
+
 
 /* Basic */
 
